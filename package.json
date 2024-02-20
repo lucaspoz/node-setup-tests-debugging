@@ -1,0 +1,16 @@
+{
+  "name": "node-setup-tests-debugging",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/service.js",
+    "test": "node --test test/",
+    "test:coverage": "node --experimental-test-coverage --test test/",
+    "test:debug": "node --inspect --test --watch test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
